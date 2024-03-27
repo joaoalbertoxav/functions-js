@@ -1,33 +1,29 @@
-//Eu quero que vocês retornem para mim o produto de id 3 com a seguinte frase, "O produto de nome(...) tem o preço de (...)"
-// let produtos = [
-    // {
-        // id:1,
-        // nome:"Camisa do Flamengo",
-        // preco :"Nem de graça"
-    // },
-    // {
-        // id:2,
-        // nome:"Bola",
-        // preco:"39.00"
-    // },
-    // {
-        // id:3,
-        // nome:"Raquete",
-        // preco:"100.00"
-    // },
-    // {
-        // id:4,
-        // nome:"Tenis",
-        // preco:"150.00"
-    // }
-// ]
+// funções de soma, subtração, multiplicação e divisão
 
-// for (let index = 0; index < produtos.length; index++) {
-    // if(produtos[index].id === 4) {
-    // console.log("o produto de nome: ", `${produtos[index].nome}`)
-    // console.log("tem o valor de: ", `${produtos[index].preco}`)
-//   }
-// }
+function soma(valor1,valor2) {
+    let soma = valor1 + valor2
+    console.log(soma)
+    return soma
+} 
+soma(5,8)
 
+function sub(valor1,valor2) {
+    let subtração = valor1 - valor2
+    console.log(subtração)
+    return subtração
+}
+sub(15,5)
 
-  
+function mul(valor1,valor2) {
+    let multiplicação = valor1 * valor2
+    console.log(multiplicação)
+    return multiplicação
+}
+mul(4,9)
+
+function div(valor1,valor2) {
+    let divisão = valor1 / valor2
+    console.log(divisão)
+    return divisão
+}
+div(50,2)  
